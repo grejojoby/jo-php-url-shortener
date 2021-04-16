@@ -16,15 +16,12 @@
       }
   }
 ?>
-
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>URL Shortener in PHP | CodingNepal</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Iconsout Link for Icons -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 </head>
 <body>
