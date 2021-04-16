@@ -24,7 +24,7 @@ shortenBtn.onclick = ()=>{
                 popupBox.classList.add("show");
 
                 //paste your url here. Like this: codingnepalweb.com/
-                let domain = "localhost/"; 
+                let domain = "grejo.live/"; 
                 shortenURL.value = domain + data;
                 copyIcon.onclick = ()=>{
                     shortenURL.select();
