@@ -7,14 +7,14 @@
     3. Go to JavaScript file and search this keyword - let domain - then paste your url there 
     4. After all changes you've to wait because javascript file save changes may take time to reflect */ 
 
-    $domain = "grejo.live/"; //like this: codingnepalweb.com/
-    $host = "143.110.182.155";
-    $user = "grejojoby"; //Database username
-    $pass = "n51ScaKbg1k5MS8b"; //Database password
-    $db = "grejo_url"; //Database name
+    $domain = "domain/"; //like this: codingnepalweb.com/
+    $host = "hostname";
+    $user = "dbuser"; //Database username
+    $pass = "dbpass"; //Database password
+    $db = "dbname"; //Database name
 
     $conn = mysqli_connect($host, $user, $pass, $db);
     if(!$conn){
-        echo "Database connection error".mysqli_connect_error();
+        echo "Database connection error".mysqli_connect_error();    
     }
 ?>
